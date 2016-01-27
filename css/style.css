@@ -79,6 +79,11 @@ a:hover {
 	text-overflow: ellipsis;
 }
 .author {
+	display:inline-block;
+	whitespace: nowrap;
+	width: 160px;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	padding-left: 4px;
 	font-weight: lighter;
 	font-size: 15px;
